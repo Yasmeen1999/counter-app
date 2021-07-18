@@ -3,10 +3,10 @@ import React from "react";
 
 const NavBar = ({ totalCounters }) => {
   return (
-    <nav className='navbar navbar-light bg-light'>
-      <a className='navbar-brand' href='/'>
+    <nav className="navbar navbar bg-dark">
+      <a className="navbar-brand" href="/">
         Navbar{""}
-        <span className='badge badge-pill badge-secondary'>
+        <span className="badge badge-pill badge-secondary ">
           {totalCounters}
         </span>
       </a>
